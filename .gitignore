@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+dist
+baileys_auth_info
+.wwebjs_auth/
+.wwebjs_cache/
+
+node_modules/
