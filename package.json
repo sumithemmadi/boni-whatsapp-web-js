@@ -8,7 +8,7 @@
       "start": "npm run build && node dist/app.js",
       "eslint": "eslint src",
       "prettify": "prettier --write .",
-      "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts",
+      "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/app.ts",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
    "repository": {
