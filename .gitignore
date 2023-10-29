@@ -7,3 +7,4 @@ baileys_auth_info
 .wwebjs_cache/
 
 node_modules/
+databases/sessions.db

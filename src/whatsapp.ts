@@ -113,7 +113,7 @@ async function sendMessage(req: Request, res: Response): Promise<void> {
    const { message, phoneNumber } = req.body;
    try {
       allClients[userId].sendMessage(phoneNumber + '@c.us', message).then(() => {
-         res.status(400).json({
+         res.status(200).json({
             success: true,
             MessageSentStatus: true,
             message: 'Message sent successfully',
